@@ -35,7 +35,7 @@
 
                 </tbody>
             </table>
-
+            {!!${{class}}->render() !!}
             <a class="btn btn-success" href="{{ route('{{class}}.create') }}">Create</a>
         </div>
     </div>
